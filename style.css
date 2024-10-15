@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Main content and layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+main {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-wrapper img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #222;
+}
+
+.text-content p {
+    margin-top: 5px;
+}
+
+/* Sidebar */
+aside {
+    flex: 1;
+    margin-left: 20px;
+}
+
+aside section {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.popular, .contact {
+    background-color: #555;
+}
+
+aside h2 {
+    margin-top: 0;
+    color: #111;
+}
+
+aside p {
+    margin-top: 0;
+    color: #fff;
+}
+
+aside a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+aside a:hover {
+    color: #999;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    font-size: 14px;
+    color: #fff;
+    
+}
